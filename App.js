@@ -1,20 +1,20 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, TouchableOpacity, View, ScrollView } from 'react-native';
+import { FontAwesome6 } from '@expo/vector-icons';
+import User from './components/User';
+import MainOne from './components/MainOne';
+import MainSec from './components/MainSec';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+  
+    <ScrollView>
+      <View>
+      <User />
+      <MainOne />
+      <MainSec />
     </View>
+    </ScrollView>
+
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
