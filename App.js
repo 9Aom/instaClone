@@ -4,17 +4,19 @@ import { FontAwesome6 } from '@expo/vector-icons';
 import User from './components/User';
 import MainOne from './components/MainOne';
 import MainSec from './components/MainSec';
+import Footer from './components/Footer';
 
 export default function App() {
   return (
   
-    <ScrollView>
-      <View>
+    <View>
+        <ScrollView>
       <User />
       <MainOne />
       <MainSec />
-    </View>
     </ScrollView>
+    <Footer />
+    </View>
 
   );
 }

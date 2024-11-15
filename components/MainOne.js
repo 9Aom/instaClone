@@ -110,6 +110,7 @@ const styles = StyleSheet.create({
         height: 'auto'
     },
     textStyle: {
+        flexWrap: 'wrap',
         textAlign: 'auto',
         left: '4%'
     },

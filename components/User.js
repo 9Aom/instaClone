@@ -44,7 +44,7 @@ const User = () => {
                     {/* profile */}
                     <View style={{ flex: 1, flexDirection: 'row',alignItems: 'center', right: 20 }} >
                         <View style={{ margin: 'auto', left: 35, alignItems: 'center' }} >
-                            <Text style={styles.content2TextProfile} >0</Text>
+                            <Text style={styles.content2TextProfile} >12</Text>
                             <Text>posts</Text>
                         </View>
                         <View style={{ margin: 'auto', left: 35, alignItems: 'center' }} >
